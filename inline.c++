@@ -4,7 +4,7 @@ using namespace std;
 class student
 {
     int roll;
-    int mark[3]; //mark is an array of 3 integgers
+    int mark[3]; //mark is an array of 3 integers
     float avg;
     char name[15];
     public:

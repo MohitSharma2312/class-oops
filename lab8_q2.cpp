@@ -1,0 +1,1 @@
+/*write a program to justify the overloading of logical and using member function and bit wise and friend function.*/

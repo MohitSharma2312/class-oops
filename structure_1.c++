@@ -1,3 +1,6 @@
+/*1. Write a program to create a structure that stores the name,roll and 3 subject 
+marks of a student. Input the details of a student and display all the details 
+along with average mark by calling a user defined function where the structure variable is passed as an argument.*/
 #include <iostream>
 using namespace std;
 struct student{
