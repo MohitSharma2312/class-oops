@@ -1,5 +1,28 @@
-/* q1)write a program to create a file that stores the name of the student which  is entered by the user from the keyboard
- q2)wap read the contents of a file print to monitor and also write to another file
-q3)wap to find the number of characters present (lenght) of file, number of words,and number of sentences present in the file.
-q4)wap to take input content from the keyboard , store to file and print ith character to jth character .
-(i and j are keyboard input where i<j)*/
+/* q1)write a program to create a file that stores the name of the student which  is entered by the user from the keyboard*/
+#include <iostream>
+using namespace std;
+
+struct student
+{
+    char name[50];
+    int roll;
+    float marks;
+};
+
+int main() 
+{
+    student s;
+    cout << "Enter information," << endl;
+    cout << "Enter name: ";
+    cin >> s.name;
+    cout << "Enter roll number: ";
+    cin >> s.roll;
+    cout << "Enter marks: ";
+    cin >> s.marks;
+
+    cout << "\nDisplaying Information," << endl;
+    cout << "Name: " << s.name << endl;
+    cout << "Roll: " << s.roll << endl;
+    cout << "Marks: " << s.marks << endl;
+    return 0;
+}
