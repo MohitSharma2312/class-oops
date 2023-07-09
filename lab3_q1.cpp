@@ -12,5 +12,5 @@ int main(){
     var(n);
     cout<<n;
     return 0;
-
+     
 }

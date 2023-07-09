@@ -15,7 +15,7 @@ public:
 };
 
 int main() {
-	TestClass tc;
+	TestClass tc; 
 	--tc;
 	tc.Display();
 	return 0;

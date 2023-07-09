@@ -9,7 +9,7 @@ int main()
     fstream fp;
     cout<<"Enter the Name of File: "<<endl;
     gets(fileName); 
-    fp.open(fileName, fstream::in);
+    fp.open(fileName, fstream::in );
     if(!fp)
     {
         cout<<"\nError Occurred!";

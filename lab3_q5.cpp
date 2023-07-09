@@ -10,7 +10,7 @@ void interest(float p,float t){
     cout<<"Simple interest is "<<ans<<endl;
 
 }
-void interest(float p,float t,float r){
+void interest(float p,float t,float r){ 
     float ans,temp;
     temp=(1+r/100);
     ans=p*pow(temp,t)-p;
